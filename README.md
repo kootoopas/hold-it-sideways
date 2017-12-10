@@ -12,4 +12,5 @@ todos
 -----
 prs welcome!
 
-* precise page element selection for more readers
+* ~~precise page element selection for more readers~~ select all images and canvases and invert them
+* invert to other degrees

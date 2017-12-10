@@ -1,7 +1,12 @@
 {
   "manifest_version": 2,
-  "version": "0.2.0",
-  "name": "hold-it-sideways",
+  "version": "0.2.1",
+  "name": "hold it sideways",
+  "description": "read inverted text with alt+i like a human bean",
+  "developer": {
+    "name": "kootoopas",
+    "url": "https://github.com/kootoopas"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
