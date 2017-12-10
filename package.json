@@ -1,0 +1,13 @@
+{
+  "name": "hold-it-sideways",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^2.2.2"
+  },
+  "scripts": {
+    "start": "web-ext run",
+    "start-dev-edition": "web-ext run -f /usr/local/Caskroom/firefoxdeveloperedition/latest/FirefoxDeveloperEdition.app/Contents/MacOS/firefox-bin"
+  }
+}
