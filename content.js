@@ -1,6 +1,6 @@
 (function() {
   function _getPageSelectorByHost() {
-    const host = window.location.host
+    var host = window.location.host;
 
     switch(host) {
       case 'mangarock.com':
@@ -9,8 +9,12 @@
         }
     }
 
-    const keywords = ['manga', 'chapter', 'reader', 'anime', 'otaku', 'comics', 'cartoon'];
-    if (keywords.some((keyword) => host.indexOf(keyword) !== -1)) {
+    var keywords = ['manga', 'chapter', 'reader', 'anime', 'otaku', 'comics', 'cartoon'];
+    var hostContainsKeyword = keywords.some(function(keyword) {
+      return host.indexOf(keyword) !== -1;
+    });
+
+    if (hostContainsKeyword) {
       return function() {
         return document.getElementsByTagName('html')[0];
       }
