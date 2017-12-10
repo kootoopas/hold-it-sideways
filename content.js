@@ -5,12 +5,11 @@
         case 'mangarock.com':
           return document.getElementsByClassName('slick-slide slick-active')[0];
         default:
-          return document.getElementsByClassName('html')[0];
+          return document.getElementsByTagName('html')[0];
       }
   }
 
   const page = _selectPageElementByHost();
-
   let inverted = false;
 
   window.addEventListener("keydown", function(e) {
