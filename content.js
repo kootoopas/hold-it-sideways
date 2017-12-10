@@ -4,19 +4,23 @@
 
     switch(host) {
       case 'mangarock.com':
-        return () => document.getElementsByClassName('slick-initialized slick-slider')[0];
+        return function() {
+          return document.getElementsByClassName('slick-initialized slick-slider')[0];
+        }
     }
 
     const keywords = ['manga', 'chapter', 'reader', 'anime', 'otaku', 'comics', 'cartoon'];
     if (keywords.some((keyword) => host.indexOf(keyword) !== -1)) {
-      return () => document.getElementsByTagName('html')[0];
+      return function() {
+        return document.getElementsByTagName('html')[0];
+      }
     }
 
     throw new RangeError(host + ' doesn\'t seem to be a reader');
   }
 
   try {
-    const selectPage = _getPageSelectorByHost();
+    var selectPage = _getPageSelectorByHost();
     var inverted = false;
 
     window.addEventListener('keydown', function(e) {
