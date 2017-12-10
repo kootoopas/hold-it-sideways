@@ -23,10 +23,10 @@
     window.addEventListener('keydown', function(e) {
       // alt + I
       if (e.altKey && e.keyCode === 73) {
-        inverted = !inverted
+        inverted = !inverted;
         page.style.transform = inverted
           ? 'rotate(90deg)'
-          : ''
+          : '';
       }
     })
   } catch(e) {}
