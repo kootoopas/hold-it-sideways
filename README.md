@@ -14,7 +14,7 @@ supported readers
 -----------------
 * [mangarock](https://mangarock.com/)
 
-*for sites whose names contain relevent words such as `manga`, `reader` or `comic` the inverted
+*for the remainder of sites whose names contain relevent words such as `manga`, `reader` or `comic` the inverted
 container is `<html>`* 
 
 todos
