@@ -10,6 +10,13 @@ usage
 -----
 `alt + i` to *hold it sideways*
 
+supported readers
+-----------------
+* [mangarock](https://mangarock.com/)
+
+*for sites whose names contain relevent words such as `manga`, `reader` or `comic` the inverted
+container is `<html>`* 
+
 todos
 -----
 prs welcome!
