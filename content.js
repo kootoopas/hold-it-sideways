@@ -9,7 +9,7 @@
         }
     }
 
-    var keywords = ['manga', 'chapter', 'reader', 'anime', 'otaku', 'comics', 'cartoon'];
+    var keywords = ['manga', 'chapter', 'reader', 'anime', 'otaku', 'comic', 'cartoon'];
     var hostContainsKeyword = keywords.some(function(keyword) {
       return host.indexOf(keyword) !== -1;
     });
