@@ -8,7 +8,7 @@
     }
 
     const keywords = ["manga", "chapter", "reader", "anime", "otaku", "comic"];
-    const hostContainsKeyword = keywords.some(keyword => keywords.indexOf(keyword) !== -1);
+    const hostContainsKeyword = keywords.some(keyword => host.indexOf(keyword) !== -1);
     if (hostContainsKeyword) {
       return () => document.getElementsByTagName("html")[0];
     }
