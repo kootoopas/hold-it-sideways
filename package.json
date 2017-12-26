@@ -4,10 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "prettier": "^1.9.2",
     "web-ext": "^2.2.2"
   },
   "scripts": {
     "start": "web-ext run",
-    "start-dev-edition": "web-ext run -f /usr/local/Caskroom/firefoxdeveloperedition/latest/FirefoxDeveloperEdition.app/Contents/MacOS/firefox-bin"
+    "start-dev-edition":
+      "web-ext run -f /usr/local/Caskroom/firefoxdeveloperedition/latest/FirefoxDeveloperEdition.app/Contents/MacOS/firefox-bin"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "all"
   }
 }
