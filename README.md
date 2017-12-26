@@ -8,18 +8,17 @@ read inverted text like a human bean
 
 usage
 -----
-`alt + i` to *hold it sideways*
+press `,` or `.` to *hold it sideways*
 
 supported readers
 -----------------
 * [mangarock](https://mangarock.com/)
 
-*for the remainder of sites whose names contain relevent words such as `manga`, `reader` or `comic` the inverted
+*for the remainder of sites whose names contain relevent words such as `manga`, `reader` or `comic` the flipped
 container is `<html>`* 
 
-todos
------
-prs welcome!
+contributing
+------------
+head over to [issues](https://github.com/kootoopas/hold-it-sideways/issues) if you're feeling like improving this
 
 * ~~precise page element selection for more readers~~ select all images and canvases and invert them
-* invert to other degrees
