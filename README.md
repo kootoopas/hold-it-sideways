@@ -20,5 +20,3 @@ container is `<html>`*
 contributing
 ------------
 head over to [issues](https://github.com/kootoopas/hold-it-sideways/issues) if you're feeling like improving this
-
-* ~~precise page element selection for more readers~~ select all images and canvases and invert them
