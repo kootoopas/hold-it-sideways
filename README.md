@@ -19,4 +19,6 @@ container is `<html>`*
 
 contributing
 ------------
+prs welcome
+
 head over to [issues](https://github.com/kootoopas/hold-it-sideways/issues) if you're feeling like improving this
