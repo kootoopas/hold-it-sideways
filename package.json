@@ -1,6 +1,6 @@
 {
   "name": "hold-it-sideways",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -9,8 +9,7 @@
   },
   "scripts": {
     "start": "web-ext run",
-    "start-dev-edition":
-      "web-ext run -f /usr/local/Caskroom/firefoxdeveloperedition/latest/FirefoxDeveloperEdition.app/Contents/MacOS/firefox-bin"
+    "start-dev-edition": "web-ext run -f /usr/local/Caskroom/firefoxdeveloperedition/latest/FirefoxDeveloperEdition.app/Contents/MacOS/firefox-bin"
   },
   "prettier": {
     "printWidth": 100,
